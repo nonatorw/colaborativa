@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Colaborativa - Tirando suas ideias da gaveta</title>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">	
+		<link rel="stylesheet" href="style/font-awesome.css">
+		<link rel="stylesheet" href="style/css.css">
+		<link rel="icon" href="img/favicon.ico"/>
+	</head>
+	<body>
+	<!-- MENU HORIZONTAL -->
+		<header id="cabecalho">
+			<div class="container linha espaco-entre alinhar-vertical">
+				<a class="logo" href="#banner">
+					<img class="linha logo" src="img/logo.svg">	
+				</a>
+				<button class="botao menu-hamburguer">
+					<i class="fa fa-bars"></i>
+				</button>
+				<nav id="navegacao-primaria" class="menu-horizontal">	
+					  <ul class="linha">
+					  		<li><a href="#missao">missão</a></li>
+					        <li><a href="#slider">o que fazemos</a></li>
+					        <li><a href="#quemsomos">quem somos</a></li>
+					        <li><a href="#contato">contato</a></li>
+					        <li><a href="#parceiros">parceiros</a></li>
+					  </ul>
+				</nav>	   
+				<nav class="menu-horizontal" id="navegacao-midias-sociais-topo">
+					<ul class="linha">
+						<li>
+							<a href="http://www.facebook.com" target="_blank">
+								<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.twitter.com" target="_blank">
+								<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.instagram.com" target="_blank">
+								<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>	
+			</div>		      			   		
+		</header>
+		<!--FIM DO MENU HORIZONTAL -->
+
+		<!-- BANNER -->
+		<section id="banner">
+			<div class="container centralizador">
+				<div id="slogan">
+					<h2>Tire suas ideias do papel...</h2>
+				</div>
+				<a href="#contato" class="botao body botao-comece">Comece agora!</a>
+			</div>			
+		</section>
+		<!-- FIM BANNER -->
+
+		<!-- MISSÃO -->
+		<section id="missao">
+			<div class="container centralizador">
+				<div class="conteudo">
+					<h4>missão</h4>
+					<p>Incentivar o surgimento e desenvolvimento de iniciativas empreendedoras 
+					de mulheres cis, pessoas trans e lgbtqi+, contribuindo com soluções de design, comunicação e produtos digitais.</p>
+				</div>
+			</div>
+		</section>
+		<!-- MISSÃO -->
+
+		<!-- O QUE FAZEMOS -->
+		<section id="slider">
+			<!-- SLIDER NAVEGAÇÕES -->
+			<div class="navegacoes">
+				<nav class="setas">
+					<button class="seta esquerda"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+					<button class="seta direita"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+				</nav>
+				<nav class="bullets menu-horizontal">
+					<ul class="linha"></ul>
+				</nav>
+			</div>
+			<!-- FIM SLIDER NAVEGACOES -->
+
+			<!-- SLIDER SLIDEBOX   -->
+			<div>
+				<div class="slide centralizador ativo" data-slide="1">
+					<img src="img/design.jpeg" />
+					<!-- <button class="botao body">saiba mais</button>  -->
+				</div>
+				<div class="slide centralizador" data-slide="2">
+					<img src="img/comunicacao.jpeg" />
+					<!-- <button class="botao body" href="#">saiba mais</button> -->
+				</div>
+				<div class="slide centralizador" data-slide="3">
+					<img src="img/digital.jpg"/>
+					<!-- <button class="botao body" href="#">saiba mais</button> -->
+				</div>
+			</div>
+		</section>
+			<!-- FIM SLIDER SLIDEBOX -->
+			
+		<!-- FIM O QUE FAZEMOS -->
+
+		<!-- QUEM SOMOS -->
+		<section id="quemsomos">
+			<div class="centralizador">
+			<div class="colaboradoras linha">
+
+				<div class="perfil">
+					<img src="img/julia.jpeg">
+					<div class="descricao">
+						<h3>Julia Fonseca</h3>
+						<p>
+							Desenvolvedora
+						</p>
+					</div>
+				</div>
+
+				<div class="perfil">
+					<img src="img/luisa.jpeg">
+					<div class="descricao">
+						<h3>Luisa Magalhães</h3>
+						<p>
+							Pesquisadora
+						</p>
+					</div>
+				</div>	
+
+				<div class="perfil">
+					<img src="img/sofia.jpg">
+					<div class="descricao">
+						<h3>Sophia Lima</h3>
+						<p>
+							Designer, ilustradora
+						</p>
+					</div>
+				</div>
+		    </div>
+			</div>
+		</section>
+		<!-- FIM QUEM SOMOS -->
+
+		<!-- CONTATO -->
+		<section id="contato">
+			<div class="container centralizador">
+				<h2>contato</h2>
+				<form id="form-contato" action="contato.html" class="linha">
+					<div>
+						<div class="form-group">
+							<label>nome</label>
+							<input class="nome" type="text" name="nome" id="input-nome" required >
+						</div>
+						<div class="form-group">
+							<label>e-mail</label>
+							<input class="email" type="text" name="email" id="input-email" required>
+						</div>
+						<div class="form-group">
+							<label>mensagem</label>
+							<textarea id="input-mensagem" required></textarea>
+						</div>
+						<button class="submit-contato" type="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+	</section>
+	<!-- FIM CONTATO -->
+
+	<!-- PARCEIROS -->
+	<section id="parceiros">
+		<div class="parceiros centralizador">
+			<h3>conheça nossos parceiros</h3>
+			<div class="linha">
+				<ul class="parceiros">
+					<li><img src="img/reprograma.png"></li>
+					<li><img src="img/apple.png"></li>
+					<li><img src="img/google.png"></li>
+					<li><img src="img/ibm.png"></li>
+					<li><img src="img/microsoft.png"></li>
+					<li><img src="img/xbox.png"></li>
+					<li><img src="img/amazon.png"></li>
+				</ul>
+			</div>
+		</div>
+	</section>			
+<!-- FIM PARCEIROS -->
+<!-- RODAPÉ -->
+		<footer id=rodape>
+					<div class="centralizador">
+					  	<ul class="linha rodape-links">
+					  		<li><a href="#missao">missão</a></li>
+					        <li><a href="#slider">o que fazemos</a></li> 
+					        <li><a href="#quemsomos">quem somos</a></li>
+					        <li><a href="#contato">contato</a></li>
+					        <li><a href="#parceiros">parceiros</a></li>
+					  	</ul>	   
+					</div>
+
+					<nav class="menu-horizontal" id="navegacao-midias-sociais-rodape">
+						<ul class="linha">
+								<li>
+									<a href="http://www.facebook.com" target="_blank">
+										<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.twitter.com" target="_blank">
+										<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.instagram.com" target="_blank">
+										<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+									</a>
+								</li>
+						</ul>
+						</nav>
+		</footer>
+<!-- FIM RODAPÉ -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script/script.js" ></script>
+	</body>
+</html>
